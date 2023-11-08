@@ -139,11 +139,11 @@ createSql(workDayObj, sqls, 1)
 # 插入数据库
 
 # 打开数据库连接
-db = pymysql.connect(host='192.168.160.178',
+db = pymysql.connect(host='ip',
                      port=3306,
-                     user='ctgehr_app',
-                     password='#1Bb9crt!08CJuu',
-                     database='ctgehr'
+                     user='',
+                     password='',
+                     database=''
                      )
 
 cursor = db.cursor()
